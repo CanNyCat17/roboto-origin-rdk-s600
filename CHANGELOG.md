@@ -6,7 +6,7 @@
 
 ### 2026-09-30 — X5底座 + S600外挂多模态开发者原型
 
-- **新增源码与部署**：[apps/s600_coprocessor](apps/s600_coprocessor/README.md)，含真实三传感器采集、可观察网页、模型校验、独立运行入口及上游来源；[阶段说明](docs/S600_COPROCESSOR_DEMO.md)。源码提交为 [bd679ad](https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100/commit/bd679ad6938c6d8e62a8f68024ae28d3949d1333)，[CI通过](https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100/actions/runs/36696623882)。
+- **新增源码与部署**：[apps/s600_coprocessor](apps/s600_coprocessor/README.md)，含真实三传感器采集、可观察网页、模型校验、独立运行入口及上游来源；[阶段说明](docs/S600_COPROCESSOR_DEMO.md)。源码提交为 [bd679ad](https://github.com/CanNyCat17/roboto-origin-rdk-s600/commit/bd679ad6938c6d8e62a8f68024ae28d3949d1333)，[CI通过](https://github.com/CanNyCat17/roboto-origin-rdk-s600/actions/runs/36696623882)。
 - **S600 BPU**：YOLO11x-Seg实时分割、Qwen3-VL-2B场景问答、Whisper-medium通用中文转写；不再仅是CPU采集示例。四核固定图片回放217.64次/秒，单实例55.52次/秒；真实相机两分钟约19.2FPS，回放与实况分别报告。
 - **三模块**：Astra Pro、STL-19P、M260C联合采集；真实5秒内存录音→Whisper→Qwen问答完成。原生深度和雷达坐标保留，不伪装成已配准目标测距。
 - **RTX5090**：CUDA浮点验证及官方十输出ONNX导出，10/10张量检查通过；没有新增训练，不宣称现成HBM与该PT严格同源。

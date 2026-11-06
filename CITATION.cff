@@ -1,15 +1,16 @@
 cff-version: 1.2.0
 message: "If this engineering toolkit helps your work, please cite the repository."
-title: "Roboto Origin on RDK X5 and S100: Evidence-Driven Offline Validation Toolkit"
+title: "RDK S600: Roboto Origin Multimodal Perception and Hardware Deployment"
 type: software
 authors:
-  - name: Xiaomiju-x
+  - name: CanNyCat17
 version: 0.1.0
 date-released: 2026-09-02
 license: Apache-2.0
-repository-code: "https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100"
-url: "https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100"
+repository-code: "https://github.com/CanNyCat17/roboto-origin-rdk-s600"
+url: "https://github.com/CanNyCat17/roboto-origin-rdk-s600"
 keywords:
+  - RDK S600
   - RDK X5
   - RDK S100
   - Roboto Origin

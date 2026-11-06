@@ -1,8 +1,8 @@
-# Roboto Origin on RDK X5 / S100 / S600
+# RDK S600 | Roboto Origin Multimodal Perception and Hardware Deployment
 
-An evidence-driven engineering repository for reproducing the public Roboto Origin stack on RDK X5, migrating its offline baseline to RDK S100, and extending selected algorithms to RDK S600.
+RDK S600 multimodal perception and hardware deployment for Roboto Origin: real sensor acquisition, YOLO segmentation, Qwen3-VL image question answering, and Whisper transcription, with source code and validation records. Earlier X5/S100 offline adaptation records remain available for traceability.
 
-> **Project context: this is a formal D-Robotics company project led by company leadership. The repository maintainer contributes as an intern responsible for the relevant algorithm development, offline deployment, and validation work.**
+> **Project context: developed with the Nanjing D-Robotics developer ecosystem department under company-team leadership. The repository maintainer is responsible for S600 algorithm adaptation, hardware deployment, and validation for Roboto Origin.**
 
 > Update, 2026-09-30: **the team has verified official X5 walking/dance routines. The new S600 coprocessor prototype runs real three-sensor acquisition, YOLO11x-Seg, Qwen3-VL-2B and Whisper-medium on the BPU, with RTX5090 float/ONNX verification. Geometric fusion, live speech accuracy and autonomous navigation remain unaccepted; this application sends no motion commands.** [Source and reproduction](apps/s600_coprocessor/README.md). Older offline results below retain their original scope.
 

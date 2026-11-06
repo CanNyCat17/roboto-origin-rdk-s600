@@ -1,4 +1,4 @@
-# X5运动底座 + S600外挂算法
+# RDK S600｜Roboto Origin 多模态实机部署报告
 
 2026-09-30增量：[可运行源码、部署步骤和实测边界](../apps/s600_coprocessor/README.md)。
 

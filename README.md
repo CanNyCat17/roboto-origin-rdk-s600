@@ -1,14 +1,14 @@
-# Roboto Origin × RDK X5 / S100 / S600
+# RDK S600｜Roboto Origin 多模态感知与实机部署
 
-[![CI](https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100/actions/workflows/ci.yml/badge.svg)](https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100/actions/workflows/ci.yml)
+[![CI](https://github.com/CanNyCat17/roboto-origin-rdk-s600/actions/workflows/ci.yml/badge.svg)](https://github.com/CanNyCat17/roboto-origin-rdk-s600/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![RDK X5](https://img.shields.io/badge/RDK-X5-ff6b35)](https://developer.d-robotics.cc/)
 [![RDK S100](https://img.shields.io/badge/RDK-S100-ff6b35)](https://developer.d-robotics.cc/)
 [![RDK S600](https://img.shields.io/badge/RDK-S600-ff6b35)](https://developer.d-robotics.cc/)
 
-一个面向 [萝博头（Roboto Origin）](https://roboparty.com/roboto_origin/doc) 的、证据驱动的 RDK X5 离线复现、RDK S100 迁移与 RDK S600 算法扩展工程。项目公开可复现的探针、板端脚本、模型/依赖锁、A/B 验收方法和安全门禁；真实机器人接入按 HW0–HW5 分级推进。
+面向[萝博头（Roboto Origin）](https://roboparty.com/roboto_origin/doc) 的 RDK S600 多模态感知与实机部署工程，公开三传感器采集、YOLO 分割、Qwen3-VL 图片问答与 Whisper 语音转写的源码、部署流程和验证记录；保留早期 X5/S100 离线适配资料供追溯。
 
-> **项目背景：本项目是地瓜机器人（D-Robotics）公司的正式项目，由公司领导牵头推进；本仓库维护者以实习生身份负责其中相关算法研发、离线部署与验证工作。**
+> **项目背景：依托南京地瓜机器人生态开发部门开展，由公司团队牵头；本仓库维护者负责 Roboto Origin 的 S600 算法适配、实机部署与验证。**
 
 > 2026-09-30最新：**团队已验证X5官方行走/舞蹈基础；本项目新增S600外挂算法演示，真实三传感器采集、YOLO11x-Seg、Qwen3-VL-2B和Whisper-medium BPU推理已运行，RTX5090完成浮点/ONNX校验。尚未验收几何融合、现场语音准确率或自主导航，不发送机器人动作。** [S600源码与复现](apps/s600_coprocessor/README.md)。以下早期离线阶段记录保留追溯。
 

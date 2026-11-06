@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
 authors = [
-  {name = "Xiaomiju-x"}
+  {name = "CanNyCat17"}
 ]
 keywords = ["RDK X5", "RDK S100", "RDK S600", "robotics", "ROS 2", "edge AI", "BPU"]
 classifiers = [
@@ -35,9 +35,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100"
-Issues = "https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100/issues"
-Documentation = "https://github.com/Xiaomiju-x/roboto-origin-rdk-x5-s100/tree/main/docs"
+Homepage = "https://github.com/CanNyCat17/roboto-origin-rdk-s600"
+Issues = "https://github.com/CanNyCat17/roboto-origin-rdk-s600/issues"
+Documentation = "https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/docs"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
